@@ -3,5 +3,60 @@
 }
 
 
-#header { display: inline-block;}
-#header  {list-style-type: none;}
+#cabecera{
+  background-color: black;
+}
+
+
+#login{
+  padding: 0;
+  color: white;
+  background-color: green;
+  width: 15em;
+  margin-left: 100em;
+
+}
+
+#login > ul {
+  list-style-type: none;
+}
+
+#login > ul > li{
+    display: inline-block;
+}
+
+#header {
+  padding: 1em;
+  background-color: white;
+  color: black;
+}
+
+#header > ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+#header > ul > li {
+  display: inline-block;
+  padding: 0.5em;
+}
+
+
+#contenido{
+  padding: 7em;
+  text-align: center;
+  background-image: url(fotos-elearning/joven-trabajando-computadora-portatil-manos-hombre-computadora-portatil-persona-negocios-lugar-trabajo_158538-8138.webp);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  color: white;
+}
+
+#contenido h1 {
+  color: green;
+}
+
+#content > ul{
+  list-style-type: none;
+}
