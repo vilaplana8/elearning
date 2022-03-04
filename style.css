@@ -51,6 +51,7 @@
   background-position: center;
   background-size: cover;
   color: white;
+  list-style-type: none;
 }
 
 #contenido h1 {
@@ -59,4 +60,66 @@
 
 #content > ul{
   list-style-type: none;
+}
+
+
+#footer {
+  background-color: #1f2022;
+  color: white;
+  display: grid;
+  grid-template-columns: 1fr 3fr 1fr;
+}
+
+#footer h6 {
+  font-size: 1em;
+}
+
+#footer ul {
+  font-size: 0.8em;
+}
+
+
+.footer-columns {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.footer-column ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.boton-buscador{
+  background-color: green;
+  padding: 0.5em;
+  margin-left: -1em;
+  color: white;
+
+}
+
+.buscador{
+    padding: 0.5em;
+}
+
+@media (max-width: 1024px) {
+
+
+  #footer {
+    grid-template-columns: 1fr;
+  }
+
+  .footer-column {
+    text-align: center;
+    font-size: 2em;
+  }
+
+  .footer-column h6 {
+    margin-bottom: 1em;
+  }
+
+  .footer-columns {
+    grid-template-columns: 1fr;
+  }
+
 }
