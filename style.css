@@ -67,7 +67,7 @@
   background-color: #1f2022;
   color: white;
   display: grid;
-  grid-template-columns: 1fr 3fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
 }
 
 #footer h6 {
@@ -79,15 +79,12 @@
 }
 
 
-.footer-columns {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-}
 
 .footer-column ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
+
 }
 
 .boton-buscador{
