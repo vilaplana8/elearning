@@ -14,7 +14,6 @@
   background-color: green;
   width: 15em;
   margin-left: 100em;
-
 }
 
 #login > ul {
@@ -22,7 +21,7 @@
 }
 
 #login > ul > li{
-    display: inline-block;
+  display: inline-block;
 }
 
 #header {
@@ -35,13 +34,20 @@
   margin: 0;
   padding: 0;
   list-style-type: none;
+
+  margin-left: 70em;
+  margin-top: -2em;
 }
 
 #header > ul > li {
   display: inline-block;
   padding: 0.5em;
+  text-align: left;
 }
 
+#hhh{
+  display: inline-block;
+}
 
 #contenido{
   padding: 7em;
@@ -62,13 +68,27 @@
   list-style-type: none;
 }
 
+#main-banner{
+  display: inline-block;
+}
+
+#main-banner ul > li{
+
+  display: grid;
+  grid-template: 1fr 1fr 1fr 1fr;
+}
+
 
 #footer {
   background-color: #1f2022;
   color: white;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
+  padding-left: 5em;
+  padding-right: 5em;
+  margin-top: 8em;
 }
+
 
 #footer h6 {
   font-size: 1em;
@@ -79,12 +99,15 @@
 }
 
 
+.footer-column{
+ margin: 4em;
+margin-top: 6em;
+}
 
 .footer-column ul {
   list-style-type: none;
-  margin: 0;
+  margin-top: 3em;
   padding: 0;
-
 }
 
 .boton-buscador{
@@ -97,6 +120,15 @@
 
 .buscador{
     padding: 0.5em;
+}
+
+
+.footer-column li:hover{
+  color: green;
+}
+
+#header li:hover{
+  color: green;
 }
 
 @media (max-width: 1024px) {
