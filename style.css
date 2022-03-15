@@ -70,13 +70,43 @@
 
 #main-banner{
   display: inline-block;
-}
-
-#main-banner ul > li{
-
   display: grid;
-  grid-template: 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
+  background-color: white;
+  font-size: 150%;
+  color: black;
+  padding: 4em;
+  padding-left: 12em;
+  padding-right: 12em;
+  line-height: 150%;
 }
+
+
+
+
+.education{
+  text-align: center;
+}
+
+.travel{
+  text-align: center;
+}
+
+.career{
+  text-align: center;
+}
+
+.dibujo{
+  color: green;
+}
+
+
+#courses ul{
+  list-style-type: none;
+
+}
+
+
 
 
 #footer {
@@ -109,6 +139,7 @@ margin-top: 6em;
   margin-top: 3em;
   padding: 0;
 }
+
 
 .boton-buscador{
   background-color: green;
